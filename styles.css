@@ -1,1 +1,74 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    background-color: pink;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(122, 172, 122);
+}
+
+header {
+    background-color: white;
+    padding: 60px;
+}
+
+#mainHeading {
+    color: red;
+}
+
+.funParagraph {
+    color: green;
+}
+
+.homeTitle {
+    text-align: center;
+    font-size: 50px;
+}
+article {
+    background: rgb(227, 203, 243);
+    
+}
+
+#getStartedDiv{
+    
+    background-color: aquamarine;
+    padding: 50px;
+}
+
+#aboutDiv {
+    background-color: white;
+    padding: 50px;
+}
+
+button {
+    color: aqua;
+    background: gray;
+    border-radius: 50px;
+    border-color: white;
+}
+
+h1 {
+    color: #a7a76e;
+}
+
+a {
+    color:purple;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover,a:focus{
+    color: aquamarine;
+}
+
+.footNav {
+    background-color: #a7a76e;
+     
+    font-size: 30px;
+    text-align: center;
+}
+
+#copyTradeMark {
+    text-align: center;
+}
