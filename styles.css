@@ -1,15 +1,40 @@
 body {
     margin: 8px;
     display: block;
-    background-color: pink;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(122, 172, 122);
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #5e695b;
 }
 
 header {
-    background-color: white;
-    padding: 60px;
+    background-color: #a4a68b;
+    padding: 60px 60px 5px;
+ }
+.headNav {
+    
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+} 
+.titleColumns {
+    display: flex;
 }
+.leftColumn {
+    margin: 0px;
+    width: 20%;
+    text-align: right;
+}
+
+.rightColumn {
+    margin: 0px;
+    width: 80%;
+    text-align: left;
+}
+
+.mainLogo {
+    width: 200px;
+    height: 200px;
+} 
 
 #mainHeading {
     color: red;
@@ -24,13 +49,15 @@ header {
     font-size: 50px;
 }
 article {
-    background: rgb(227, 203, 243);
+    background: #ffffff;
+    padding: 20px;
     
 }
 
 #getStartedDiv{
     
-    background-color: aquamarine;
+    background-color: #eeeae8;
+    color: #a4a68b;
     padding: 50px;
 }
 
@@ -40,31 +67,35 @@ article {
 }
 
 button {
-    color: aqua;
-    background: gray;
-    border-radius: 50px;
-    border-color: white;
+    color: #5e695b;
+    background: #eeeae8;
+    margin: 10px;
+    border-radius: 3px;
+    border-color: #ccbf92;
+    
 }
 
+
+
 h1 {
-    color: #a7a76e;
+    color: #2b2b2b;
 }
 
 a {
-    color:purple;
+    color:#5e695b;
 }
 
 a:visited {
-    color: white;
+    color: #ccbf92;
 }
 
 a:hover,a:focus{
-    color: aquamarine;
+    color: #2b2b2b;
 }
 
 .footNav {
-    background-color: #a7a76e;
-     
+    background-color: #5e695b;
+    color: #ffffff;
     font-size: 30px;
     text-align: center;
 }
